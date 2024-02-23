@@ -2,7 +2,8 @@
 
 ## Notes
 - GAN may be black box, so might not be able to obtain mapping matrix between N1 and N2 (two adjacent tissue slices)
-- There was an issue with python-igraph because it was deprecated. In `setup.py` and `requires.txt`, change `python-igraph` to `igraph` because the former has been deprecated ([link](https://github.com/igraph/python-igraph/issues/699) and [link](https://github.com/jianhuupenn/SpaGCN/issues/79)). `Igraph` also had to be less than `0.11.0` but greater than `0.10.0`.
+- There was an issue with python-igraph because it was deprecated. In `setup.py` and `requires.txt`, change `python-igraph` to `igraph` because the former has been [deprecated](https://github.com/igraph/python-igraph/issues/699)/
+This is an [issue](https://github.com/jianhuupenn/SpaGCN/issues/79) unresolved by the SpaGCN creators. `Igraph` also had to be less than `0.11.0` but greater than `0.10.0`.
 - Issue with running local version resolved by changing working directory where Jupyter notebook was based.
 - Tissue slice data is obtained from [here](http://spatial.libd.org/spatialLIBD/).
 
